@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 6rem;
+    border: 1px solid #1a1a2e; /* Deep blue */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a1a2e; /* Deep blue */
+}
+
+#main{
+    border: 1px solid #1a1a2e; /* Deep blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    margin-top: 1rem;
+    gap: 2rem;
+    background-color: #f3f4f6; /* Light grey-blue */
+}
+
+.text{
+    height: 22rem;
+    width: 30rem;
+    padding: 1rem;
+    border: 1px solid #1a1a2e; /* Deep blue */
+    background-color: #fff; /* White */
+}
+
+.imge{
+    height: 22rem;
+    width: 22rem;
+    background-image: url("portfolio_profile.jpg");
+    background-size: cover;
+    border: 1px solid #1a1a2e; /* Deep blue */
+}
+
+.skills{
+    height: 6rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    border: 1px solid #1a1a2e; /* Deep blue */
+    background-color: white; /* Light grey-blue */
+}
+
+.project{
+    height: 40rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #1a1a2e; /* Deep blue */
+    background-color: #fff; /* White */
+}
+.project>h1{
+    font-size: 5rem;
+    color: #1a1a2e; /* Deep blue */
+}
+
+.cards{
+    margin: 2rem;
+    height: 26rem;
+    width: 70rem;
+    display: flex;
+    border: 1px solid #1a1a2e; /* Deep blue */
+    background-color: #f2f2f4; /* Light grey-blue */
+}
+
+.card1{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    height: 18rem;
+    width: 35rem;
+    opacity: 1;
+    border: 1px solid #1a1a2e; /* Deep blue */
+    background-color: #fff; /* White */
+}
+
+.mg,.site{
+    height: 18rem;
+    width: 35rem;
+}
+
+.mg:hover,.card1:hover{
+    opacity: 0.8;
+}
+
+.head{
+    position: relative;
+    bottom: 4rem;
+    margin-left: 1rem;
+    opacity: 0;
+}
+
+.head:hover{
+    opacity: 1;
+    color: #1a1a2e; /* Deep blue */
+}
+
+.contact{
+    height: 6rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #1a1a2e; /* Deep blue */
+    background-color: #f3f4f6; /* Light grey-blue */
+}
+
+.social{
+    height: 2.8rem;
+    width: 3rem;
+}
+
+.contact>li{
+    list-style-type: none;
+}
